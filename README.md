@@ -24,7 +24,7 @@ It is an End-to-End Data Engineering project from scratch where I leverage power
 4. **Reporting**
      - The final step involves building interactive dashboards using Power BI.
      - We connect Power BI to Azure Synapse or other data stores, pulling relevant fact and dimension tables for analysis
-#### Data Flow Summarry & Tech Stack
+### Data Flow Summarry & Tech Stack
      API (HTTP) → Azure Data Factory (ADF) → Bronze (Raw Data) → Databricks (Transform) → Silver → Synapse (Serve) → Power BI (Report)
      Azure Data Factory (Ingestion & Orchestration)
      Azure Data Lake (Storage: Bronze, Silver, Gold layers)
