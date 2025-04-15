@@ -32,7 +32,7 @@ It is an End-to-End Data Engineering project from scratch where I leverage power
      Azure Synapse Analytics (Data Warehouse)
      Power BI (Visualization & Reporting)
 
-## Phase-I ( Data Loading to Bronze Layer)
+## Phase-I ( Data Loading/Extracting Data to Bronze Layer)
 1. **Create Resource Group and Storage Account**  
       - A. Create Resource Group: In Azure, a Resource Group is needed to organize and manage all related resources.  
       - B. Create Storage Account
