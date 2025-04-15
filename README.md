@@ -10,14 +10,14 @@ It is an End-to-End Data Engineering project from scratch where I leverage power
      - Description: A low-code/no-code orchestration tool that is powerful and flexible.
      - Key Feature: We use **dynamic pipelines** with parameters and loops for scalable ingestion.
 3. **Medallion Architecture**
-     🔹 Raw Data Store (Bronze Layer)
+     * Raw Data Store (Bronze Layer)
          - After pulling the data, it's landed in the Bronze layer, also known as the Raw layer.
          - This is an exact copy of the source data, stored as-is for auditing and reprocessing purposes.
-     🔸 Transformation Layer (Silver Layer)
+     * Transformation Layer (Silver Layer)
          - Tool: Databricks
          - Description: Databricks handles the bulk of the transformation and cleaning process using PySpark.
          - We extract data from the Bronze layer, apply transformations, and push clean data to the Silver layer.
-     🟡 Serving Layer (Gold Layer)
+     * Serving Layer (Gold Layer)
          - After transformation, the cleaned and enriched data is served to stakeholders.
          - Example consumers: Data Analysts, Data Scientists
          - Common target: Data Warehouse built using Azure Synapse Analytics
